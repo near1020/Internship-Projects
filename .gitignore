@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Power BI Cache
+*.tmp
+
+# VS Code
+.vscode/
+
+# Large datasets
+Task4_Sentiment_Analysis/Dataset.xlsx
+Task4_Sentiment_Analysis/Dataset.csv
+
+# 
