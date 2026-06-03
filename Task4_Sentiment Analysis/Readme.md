@@ -66,3 +66,16 @@ This solution enables organizations to monitor customer perception at scale and 
 * Real-time sentiment monitoring
 * Aspect-based sentiment analysis
 * Model deployment using APIs
+
+## Dataset Note
+
+The original Amazon Reviews dataset contained a significantly larger volume of customer reviews. Due to GitHub file size limitations and repository optimization considerations, a representative sample dataset has been included in this repository for reproducibility and demonstration purposes.
+
+The complete dataset was used during experimentation and model development. The notebook and workflow remain fully reproducible on the full dataset. The sample dataset is provided to allow reviewers and recruiters to execute the notebook efficiently without excessive storage requirements.
+
+Key considerations:
+
+* Full dataset used for experimentation and scalability testing.
+* Sample dataset included for GitHub compatibility.
+* Class imbalance was addressed using stratified train-test splitting and class-weighted models.
+* Results may vary slightly depending on the sample selected.
